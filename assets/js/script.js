@@ -36,8 +36,14 @@ function runGame(gameType) {
     }
 }
 
-function calculateCorrectAnswer() {
 
+/**
+ *Gets the operands (the number) and the operator (plus, minus, etc)
+ directly from the dom, and returns the correct answer. 
+ */
+function calculateCorrectAnswer() {
+   let operand1 = parseInt(document.getElementById("operand1").innerText);
+    let operand1 = parseInt(document.getElementById("operand1").innerText);
 }
 
 function incrementScore() {
